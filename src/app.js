@@ -10,11 +10,10 @@ app.use(express.json());
 app.use(routes);
 app.use(errors());
 
-module.exports = app;
-/*
-Em produção trocar para:
-app.use(cors({
-  origin: 'https://meulink.com'
-}))
+app.use(
+  cors({
+    origin: "https://bethehero-rocketseat.netlify.com/"
+  })
+);
 
-*/
+module.exports = app;
