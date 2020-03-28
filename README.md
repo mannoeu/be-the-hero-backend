@@ -1,4 +1,4 @@
-<h1 align="center">Be The Hero - Back-end</h1>
+<h1 align="center">Be The Hero</h1>
 <p align="center">🚀 OmniStack Week 11.0</p>
 
 ## About
